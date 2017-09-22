@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The-Game</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<div class="intro">
+    <h1>Welcome To BitBall</h1>
+
+    <p>tip: bit the balls :) !<br><br><br><span>Start Game</span></p>
+
+</div>
+<div id="header">
+
+    <div id="score-div">
+        <span class="lvl-1-score circle"></span>
+        <span class="lvl-2-score circle"></span>
+        <span class="lvl-3-score circle"></span>
+    </div>
+
+    <label id="score">Your Score: <span>0</span></label>
+    <label id="remaining">Circles Remaining: <span>4</span></label>
+    <label id="clicks-remaining">Clicks Remaining: <span>10</span></label>
+    <!--<label id="countdown">Time Remaining: <span>60</span></label>-->
+
+</div>
+<!--lvl 1-->
+<div class="lvl-1">
+    <div class="lvl-1-balls"></div>
+    <div class="lvl-1-balls"></div>
+    <div class="lvl-1-balls"></div>
+    <div class="lvl-1-balls"></div>
+
+    <div class="win-message-1">
+        <h2 class="win">good</h2>
+        <h3 class="win">Start <span>Level 2</span></h3>
+    </div>
+</div>
+
+<!--lvl 2-->
+<div class="lvl-2">
+    <div class="lvl-2-balls"></div>
+    <div class="lvl-2-balls"></div>
+    <div class="lvl-2-balls"></div>
+    <div class="lvl-2-balls"></div>
+
+    <div class="win-message-2">
+        <h2 class="win">good</h2>
+        <h3 class="win">Start <span>Level 3</span></h3>
+    </div>
+</div>
+
+<!--lvl 3-->
+<div class="lvl-3">
+    <div class="lvl-3-balls"></div>
+    <div class="lvl-3-balls"></div>
+    <div class="lvl-3-balls"></div>
+    <div class="lvl-3-balls"></div>
+
+    <div class="win-message-3">
+        <h2 class="win">Awesome !!</h2>
+        <h3 class="win">Congratulation you finished the Game<br><a href="index.html">Play Again</a></h3>
+        <p class="win">Designed By ahmed said <span>O'ka</span></p>
+    </div>
+</div>
+
+
+
+<h2 class="lose">Game Over <a href="index.html">Restart Game</a></h2>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
