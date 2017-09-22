@@ -132,7 +132,7 @@ $(function(){
 
 
        });
-   }lvlOne();
+   };
 
     $('.win-message-1 span').click(function(){
        $('.win-message-1 .win').hide();
